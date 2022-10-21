@@ -1,0 +1,11 @@
+{
+    "1": "Success.",
+    "3": "Authentication failed: You do not have permissions to access the service.", 
+    "7": "Invalid API key: You must be granted a valid key.",
+    "12": "The item/record was updated successfully.",  
+    "13": "The item/record was deleted successfully.",
+    "18": ["Value too low: Value must be greater than 0.0.",
+        "Value invalid: Values must be a multiple of 0.50.",
+        "Value too high: Value must be less than, or equal to 10.0."],
+    "34": "The resource you requested could not be found."
+}
