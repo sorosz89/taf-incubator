@@ -9,7 +9,7 @@ module.exports = [
         "httpStatusCode": 201,
         "statusCode": 1
     },
-    {   "testName": "should update rating with valid value for an existing movie",
+    {   "testName": "should update rating with valid value for an already rated movie",
         "authLevel": 2,
         "movieId": defaultMovieId,
         "value": 1,
