@@ -66,7 +66,7 @@ describe('MOVIES - Rate Movie', () => {
         validateStatusResponse(response, 401, 3);
     });
 
-    // the same test cases with test-driven approach
+    // the same test cases with data-driven approach
     it.each(testData)
     ('$testName', async (testDatum) => {
         const response = await sendRateMovieRequest(testDatum.authLevel, testDatum.movieId, testDatum.value);

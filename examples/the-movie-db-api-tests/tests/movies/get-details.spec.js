@@ -46,9 +46,9 @@ describe('MOVIES - Get Details', () => {
         validateStatusResponse(response, 401, 7);
     });
 
-    // the same test cases with test-driven approach
+    // the same test cases with data-driven approach
     it.each(testData)
-    (`$testName`, async (testDatum) => {
+    ('$testName', async (testDatum) => {
         const response = await sendGetDetailsRequest(testDatum.authLevel, testDatum.movieId);
 
         validateStatusResponse(response, testDatum.httpStatusCode, testDatum.statusCode);
